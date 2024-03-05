@@ -1,0 +1,53 @@
+.parentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .childContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .tracking {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+    min-width: -webkit-fill-available;
+    justify-content: center;
+  }
+
+  .my-brand {
+    border-color: white;
+    background-color: black;
+    color: white;
+  }
+
+  .my-brand:disabled {
+    border-color: black;
+    }
+
+  button:hover {
+    border-color: black;
+  }
+
+  .additional {
+    height: 50px;
+    font-size: 30px;
+    color:white;
+    margin-top: 10px;
+    min-width: -webkit-fill-available;
+    border-color: white;
+    background-color: black;
+  }
+
+  .additionalBtn {
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    color:white;
+    margin-top: 10px;
+    background-color: black;
+    border: 1px solid white;
+  }

@@ -1,0 +1,28 @@
+<template>
+    <div class="parentContainer">
+        <div if:false={hasWinner} class="tracking">
+                <button type="submit" class="slds-button slds-button_brand slds-button_stretch my-brand" disabled={isFirst}>{firstPlayerLabel}</button>
+                <button type="submit" class="slds-button slds-button_brand slds-button_stretch my-brand" disabled={isSecond}>{secondPlayerLabel}</button>
+        </div>
+        <div if:true={hasWinner} class="tracking additional">
+                <button type="submit" class="slds-button slds-button_brand slds-button_stretch additional">{status}</button>
+        </div>
+        <div class="childContainer">
+            <c-board 
+                ongameclick={handleClick}
+                oncheckgame={checkForWinner}
+                squares={current.squares}
+                current={current}
+                history={history}
+                stepnumber={stepNumber}
+                customclass={customclass}
+                linesdata={linesData}
+                winner={winner}>
+            </c-board>
+        </div>
+
+        <div class="tracking">
+                <button type="submit" class="slds-button slds-button_brand slds-button_stretch additionalBtn" onclick={resetGame}>Reset</button>
+        </div>
+    </div>
+</template>

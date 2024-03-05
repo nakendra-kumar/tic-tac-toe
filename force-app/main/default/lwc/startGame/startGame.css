@@ -1,0 +1,100 @@
+.container {
+    width: 1118px;
+    height: 735px;
+    background-color: black;
+    border: 2px solid;
+    position: relative;
+}
+
+.startGameBtn {
+  width: 400px;
+  height: 50px;
+  font-size: 30px;
+  color: white;
+  margin-top: 10px;
+  background-color: black;
+  border: 1px solid white;
+}
+
+button:hover {
+  border-color: black;
+}
+
+.customC {
+  top: 291px;
+}
+
+.backgroundImg{
+  width: 1118px;
+  height: 739px;
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgb(84 83 84 / 30%);
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    /* width: 250px; */
+    text-align: center;
+  }
+
+  .child-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    color: black;
+  }
+  .panel {
+    width: 200px;
+  }
+
+  .start-text {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+
+.my-brand {
+  border-color: white;
+  width: 100px;
+  background-color: black;
+  color: white;
+}
+
+.my-brand:disabled {
+background-color: darkgray;
+}
+
+.my-brand:hover {
+  border-color: white;
+}
+
+  .firstPlayer {
+    position: relative;
+  }
+
+  .firstPlayer p {
+    position: absolute;
+  }
+
+  .secondPlayer {
+    position: relative;
+  }
+
+  .secondPlayer p {
+    position: absolute;
+  }
+
+  .player {
+    font-weight: bolder;
+    font-size: 101px;
+  }
+
+  .addedStyle {
+    top: 44%;
+  }

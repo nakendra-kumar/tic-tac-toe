@@ -1,0 +1,27 @@
+:root {
+    --border-radius: 4px;
+    --margin: 8px;
+    --padding: 10px;
+  
+    --square-size: 100px;
+    --square-border: 4px solid black;
+    --square-font-size: 80px;
+  
+    --X: #ff4444;
+    --O: #0099ff;
+    --Draw: #f7ed29;
+    --Disabled: #ecf4f9;
+    --Background: #0d47a1;
+    --Reset: #b71c1c;
+  
+    --board-size: calc(var(--square-size) * 3);
+  
+    --toggle-font-size: 40px;
+  
+    --history-font-size: 20px;
+    --history-height: 30px;
+    --history-width: 84px;
+    --history-hover-color: #ecf4f9;
+  
+    --history-border: 1px solid black;
+  }

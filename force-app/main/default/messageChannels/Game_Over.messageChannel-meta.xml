@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Message Channel to pass Game Details</description>
+    <isExposed>true</isExposed>
+    <lightningMessageFields>
+        <description>This is the name of the first player</description>
+        <fieldName>firstplayer</fieldName>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <description>This is the name of the second player</description>
+        <fieldName>secondplayer</fieldName>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <description>This is the name of the winning player</description>
+        <fieldName>winner</fieldName>
+    </lightningMessageFields>
+    <masterLabel>Game Details</masterLabel>
+</LightningMessageChannel>

@@ -1,0 +1,21 @@
+.tableElement {
+    width: 400px;
+    height: 625px;
+}
+
+
+.leaderboard {
+    display: flex;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    font-weight: bolder;
+    background-color: white;
+    border: 2px solid;
+    margin-bottom: 15px;
+  }
+
+  .searchIn {
+    margin-bottom: 5px;
+    margin-top: -25px;
+  }

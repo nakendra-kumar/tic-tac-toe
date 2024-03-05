@@ -1,0 +1,46 @@
+.square {
+  font-size: 60px;
+  border: 4px solid black;
+  height: 100px;
+  width: 100px;
+}
+
+.squareX {
+  font-size: 60px;
+  border: 4px solid black;
+  height: 100px;
+  width: 100px;
+}
+
+.squareO {
+  font-size: 60px;
+  border: 4px solid black;
+  height: 100px;
+  width: 100px;
+}
+
+.square[data-value='X'] {
+  color: #ff4444;
+}
+
+.square[data-value='O'] {
+  color: #0099ff;
+}
+
+.square:disabled {
+  color: #ecf4f9;
+}
+/* 2nd, 5th, 8th */
+.square-container:nth-child(3n + 2) {
+  border-right: 4px solid black;
+  border-left: 4px solid black;
+}
+
+/* 4th, 5th, 6th */
+.square-container:nth-child(n + 4) {
+  border-top: 4px solid black;
+}
+
+.greenBck {
+  background-color:  green;
+}

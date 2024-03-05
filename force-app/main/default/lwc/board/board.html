@@ -1,0 +1,12 @@
+<template>
+    <div>
+        <div class="board">
+            <template for:each={rows} for:item="row">
+                <c-square key={row} valuedata={row} squares={squares} onsquareclick={handleBoardClick} oncheckboard={handleCheckWinner}
+                current={current}
+                history={history}
+                stepnumber={stepnumber} customclass={customclass} linesdata={linesdata} winner={winner}></c-square>
+            </template>
+        </div> 
+    </div> 
+</template>
